@@ -6,6 +6,8 @@ This is the result of substantially more troubleshooting than I would like to ad
 
 Post functionality is entirely untested, but given the rest of my disclaimers. If I run into situation where this doesn't work, or someone else does, and posts a solution or pull request, I will approve it, but quite frankly, I used this to grab the stuff that I needed and may not have use for it again.
 
+A large portion of the code was generated with Claude Sonnet 3.7, mostly that to do with actually interfacing with the API
+
 ## Overview
 
 This application allows you to easily download content from the CivitAI platform, including:
