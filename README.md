@@ -33,7 +33,7 @@ All content is organized into a structured directory hierarchy for easy browsing
 ### Prerequisites
 
 - Python 3.6 or higher
-- pip (Python package installer)
+- The pyyaml Library
 
 ### Setup
 
@@ -54,7 +54,7 @@ pip install requests pyyaml
 
 On first run, the application will prompt you for:
 
-1. Your CivitAI API key (required for accessing the CivitAI API)
+1. Your CivitAI API key (required for accessing some portions of the the CivitAI API, like private collections)
 2. A download directory (defaults to `~/Pictures/CivitAI`)
 
 These settings are saved to a configuration file at `~/.civitai_downloader/config.json` for future use.
@@ -173,10 +173,6 @@ The tool saves detailed metadata for each downloaded item, including:
 - Tags and other metadata
 
 ## Troubleshooting
-
-### API Key Issues
-
-If you encounter authorization errors, check that your API key is valid and properly saved in the configuration file.
 
 ### Download Failures
 
